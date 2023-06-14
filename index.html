@@ -19,7 +19,9 @@
 <body>
     <!-- Top navbar start -->
     <div class="top-navbar">
-        <h1>Welcome To Our Shop</h1>
+        <div class="top-header">
+            <h1>Welcome To Our Shop</h1>
+        </div>
         <div class="icons">
             <a href="login.html"><img src="./images/register.png" alt="" width="18px">Login</a>
             <a href="register.html"><img src="./images/register.png" alt="" width="18px">Register</a>
@@ -30,7 +32,8 @@
     <!-- main navbar start  -->
     <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html" id="logo"><span id="span1">E</span>lectronic <span>Shop</span></a>
+            <a class="navbar-brand" href="index.html" id="logo"><img src="images/logo-bg.png" alt="logo" width="50px"
+                    height="30px"> <span id="span1">E</span>lectronic <span>Shop</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -42,7 +45,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="#product">Product</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -95,7 +98,7 @@
     </section>
     <!-- Home content end -->
     <!-- prodcut content start  -->
-    <section class="container">
+    <section class="container" id="product">
         <div class="product-container" id="product-cards">
             <h1 class="text-center">Products</h1>
             <div class="row">
