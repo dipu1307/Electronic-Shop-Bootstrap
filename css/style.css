@@ -118,7 +118,8 @@
 /* main navbar end */
 
 /* Home content start  */
-.home {
+
+.home-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,16 +130,17 @@
   background-color: #a9a9a92b;
   z-index: 0;
 }
-.home .img {
+.home-container .img {
   flex: 1 1 300px;
 }
-.home .img img {
+.home-container .img img {
   margin-top: 20px;
-  width: 100%;
+  width: 80%;
 }
-.home .home-content {
+.home-container .home-content {
   flex: 1 1 400px;
   margin-top: 20px;
+  margin-left: 40px;
 }
 .home-content h1 {
   color: rgb(67 0 86);
@@ -177,27 +179,27 @@
   border: none;
 }
 @media screen and (max-width: 1200px) {
-  .home {
+  .home-container {
     height: 90vh;
   }
 }
 @media screen and (max-width: 799px) {
-  .home {
+  .home-container {
     height: 140vh;
   }
 }
 @media screen and (max-width: 550px) {
-  .home {
+  .home-container {
     height: 110vh;
   }
 }
 @media screen and (max-width: 420px) {
-  .content h1 {
+  .home-content h1 {
     font-size: 45px;
   }
 }
 @media screen and (max-width: 320px) {
-  .content h1 {
+  .home-content h1 {
     font-size: 36px;
   }
 }
